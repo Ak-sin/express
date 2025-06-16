@@ -19,6 +19,10 @@
 # num3=num1*num2
 # print(num3)
 
-
+import calendar
+yy = 2024
+mm = 11
+cal = calendar.TextCalendar()
+print(cal.formatmonth(yy, mm))
 
 
